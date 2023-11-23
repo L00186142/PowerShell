@@ -1,0 +1,1 @@
+powershell.exe -executionpolicy bypass -File '.\Verify PowerShell 7.ps1'

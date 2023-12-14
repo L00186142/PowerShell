@@ -14,4 +14,4 @@ Install-ADDSForest `
 -SysvolPath "C:\Windows\SYSVOL" `
 -Force:$true
 
-# Shutdown /r /t 0
+Shutdown /r /t 0

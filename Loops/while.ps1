@@ -1,3 +1,4 @@
+# While loop incrementing $val until it reaches 3
 while($val -ne 3)
 {
     $val++

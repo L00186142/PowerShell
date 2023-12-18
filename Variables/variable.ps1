@@ -18,7 +18,8 @@ $Rubbish
 
 [int]$Rubbish = 1
 $Rubbish = "This will give you an error!"
-$Rubbish
+# Error: Cannot convert value...
+$Rubbish  # Output: (no output as an error occurred)
 
 [datetime]$OGGI = "11/13/2022"
 $OGGI
@@ -26,5 +27,8 @@ $OGGI
 $dir_listing = Get-ChildItem c:\
 $dir_listing
 
-New-Variable JORzVariable -value 3.142 -description "PI with write-protection" -option ReadOnly
+# Creating a variable with options
+New-Variable JORzVariable -Value 3.142 -Description "PI with write-protection" -Option ReadOnly
+
+# Retrieving information about the variable
 Get-Variable JORzVariable

@@ -1,5 +1,8 @@
+# Creating an array of characters
 $MyArray = "J", "o", "h", "n"
-foreach ($Letter in $MyArray)
-{
+
+# Using a foreach loop to iterate over each element in the array
+foreach ($Letter in $MyArray) {
+    # Outputting each letter in the array
     $Letter
 }

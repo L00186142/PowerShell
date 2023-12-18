@@ -1,8 +1,15 @@
+# Initializing the variable $a
 $a = 0 
-do
-{
-    “Starting Loop $a”
+
+# Using a do-while loop
+do {
+    # Outputting information about the current iteration
+    "Starting Loop $a"
     $a
+
+    # Incrementing the value of $a
     $a++
-    “Now `$a is $a”
+
+    # Outputting updated information about $a
+    "Now `$a is $a"
 } until ($a -ge 5)

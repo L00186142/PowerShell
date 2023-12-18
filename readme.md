@@ -9,9 +9,8 @@ This repository contains a set of PowerShell code and examples. Each section is 
 3. [Custom PowerShell Module](#custom-powershell-module)
 
 ## Setting Execution Policy
-
+Set the execution policy to RemoteSigned with Force flag to override restrictions.
 ```powershell
-# Set the execution policy to RemoteSigned with Force flag to override restrictions
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 ```
 ## Downloading and Installing PowerShell 7
